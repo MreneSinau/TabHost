@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mrenesinau.tabhost.MainActivity">
+
+    <item
+        android:id="@+id/yelow"
+        android:orderInCategory="100"
+        android:title="Kuning"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/blue"
+        android:orderInCategory="100"
+        android:title="Biru"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/white"
+        android:orderInCategory="100"
+        android:title="Putih"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn"
+        android:orderInCategory="100"
+        android:title="Hiden Button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnOk"
+        android:orderInCategory="100"
+        android:title="Show Button"
+        app:showAsAction="never" />
+
+</menu>
